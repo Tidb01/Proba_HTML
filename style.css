@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+html {
+    font-size: 18px;
+
+}
+body {
+    background-color: orange;
+}
+.hasab {
+    width: 50%;
+    float: left;
+       
+}
+.bekezd::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
